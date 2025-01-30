@@ -1,0 +1,26 @@
+[
+    {
+        "index": 1,
+        "timestamp": "2023-01-01 12:00:00",
+        "transactions": [
+            {"sender": "Alice", "recipient": "Bob", "amount": 5.0}
+        ],
+        "previous_hash": "previous_block_hash"
+    },
+    {
+        "index": 2,
+        "timestamp": "2023-01-02 12:00:00",
+        "transactions": [
+            {"sender": "Bob", "recipient": "Charlie", "amount": 3.0}
+        ],
+        "previous_hash": "hash_of_block_1"
+    },
+    {
+        "index": 3,
+        "timestamp": "2023-01-03 12:00:00",
+        "transactions": [
+            {"sender": "Matvey", "recipient": "Daniil", "amount": 1.0}
+        ],
+        "previous_hash": "hash_of_block_2"
+    }
+]
